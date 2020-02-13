@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	/*align-content: center;*/
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +68,28 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header nav{
+	display: flex;
+	justify-content: space-evenly;
+	border: solid;
+
+}
+
+.links{
+	width: 60%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border: solid;
+}
+
+a {
+	color: #CCD2C1;
+	text-decoration: none;
+	border: solid;
+}
+
+.logo{
+	border: solid;
+}
