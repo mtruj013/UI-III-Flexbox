@@ -157,3 +157,23 @@ footer p{
 	padding-top: 20px; 
 	text-align: center;
 }
+
+
+/* services webpage css starts here*/
+
+
+.header-img{
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	display: flex;
+	align-content: center;
+}
+
+.services{
+	display: flex;
+	flex-direction: column;
+}
+
