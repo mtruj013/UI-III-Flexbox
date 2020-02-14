@@ -162,7 +162,6 @@ footer p{
 /* services webpage css starts here*/
 .content{
 	width:90%;
-	border: solid;
 	margin: auto;
 	padding: 30px;
 }
@@ -183,7 +182,6 @@ footer p{
 	align-content: center;
 	padding: 30px;
 	justify-content: space-between;
-	border: solid blue;
 }
 
 .services{
@@ -204,6 +202,3 @@ ul{
 }
 
 
-#digital-design-UX{
-	border: solid red;
-}
